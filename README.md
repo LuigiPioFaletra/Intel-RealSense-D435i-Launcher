@@ -152,11 +152,7 @@ If any parameter is missing or invalid, the launcher will request it interactive
 
 - Displays **depth and color preview**  
 - Highlights the **IR dot** on the central sensor  
-- Saves four CSV files:
-  1. [name] depth data.csv
-  2. [name] color data.csv
-  3. [name] accel data.csv
-  4. [name] gyro data.csv
+- Saves four CSV files (depth, color, accelerometer, gyroscope), detailed in section 5.
 
 ---
 
@@ -199,18 +195,3 @@ The `.csv` files contain all acquired depth, color, and IMU data.
   - Angular velocity: **rad/s**  
 - Orientation (rad)  
 - Magnitude (total acceleration/velocity)  
-
----
-
-# Running the Project
-
-Once setup is complete:
-
-1. Connect the **Intel RealSense D435i**  
-2. Install required libraries  
-3. Run:
-```bash
-python launcher.py
-```
-4. Provide inputs if requested
-5. Retrieve output CSV files in the data/ folder
