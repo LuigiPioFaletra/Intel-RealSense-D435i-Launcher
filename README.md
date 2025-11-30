@@ -152,7 +152,11 @@ If any parameter is missing or invalid, the launcher will request it interactive
 
 - Displays **depth and color preview**  
 - Highlights the **IR dot** on the central sensor  
-- Saves four CSV files (depth, color, accelerometer, gyroscope), detailed in section 5.
+- Saves four CSV files (see section 5):
+  1. [name]_depth_data.csv
+  2. [name]_color_data.csv
+  3. [name]_accel_data.csv
+  4. [name]_gyro_data.csv
 
 ---
 
