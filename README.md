@@ -199,3 +199,9 @@ The `.csv` files contain all acquired depth, color, and IMU data.
   - Angular velocity: **rad/s**  
 - Orientation (rad)  
 - Magnitude (total acceleration/velocity)  
+
+---
+
+### License
+
+This project is licensed under the terms of the MIT license. You can find the full license in the `LICENSE` file.
